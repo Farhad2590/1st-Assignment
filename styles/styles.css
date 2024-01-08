@@ -310,6 +310,8 @@ line-height: normal; */
    background-image: url("../images/Rectangle-1.png"), url("../images/Rectangle-2.png");
    background-position:  top right , bottom;
    background-repeat: no-repeat;
+   margin-top: 80px;
+   margin-bottom: 80px;
    /* background-size: contain; */
    /* height: 100px 100px; */
    /* margin-left: 50px;
@@ -518,8 +520,14 @@ footer {
 }
 
 .horizontal {
-    width: 720px;
+    /* width: 720px;
     padding-left: 300px;
     height: 1px;
-    background: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF26;
+    background: rgba(255, 255, 255, 0.15); */
+    border-top: 1px dotted #FFFFFF26;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
