@@ -424,7 +424,38 @@ text-transform: capitalize;
 /* footer section  */
 footer {
     margin: 80px 0px 0px 0px;
-    display: flex;
+    /* display: flex; */
     background-color: black;
+    /* color: white; */
+}
+.text-part-one{
+    display: flex;
+    justify-content: space-between;
+}
+.address{
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+padding-left: 50px;
+}
+.text-phone-web{
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+padding-right: 50px;
+}
+.icon{
+    text-align: center;
+}
+.text-part-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
     color: white;
 }
