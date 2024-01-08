@@ -307,13 +307,34 @@ line-height: normal; */
 
 /* seventh section  */
 .seventh-section {
-   background-image: ;
-}
+   background-image: url("../images/Rectangle-1.png"), url("../images/Rectangle-2.png");
+   background-position:  top right , bottom;
+   background-repeat: no-repeat;
+   /* background-size: contain; */
+   /* height: 100px 100px; */
+   /* margin-left: 50px;
+    margin-right: 50px; */
+   /* background-size: 100px 100px , 850px 100px; */
 
+}
+.image-container{
+    display: flex;
+    /* width: 50%; */
+}
+.first-image img{
+    width: 300px;
+    padding: 260px 0px 150px 50px;
+}
+.second-image img{
+    z-index: 1;
+    width: 250px;
+    padding-top: 100px;
+}
 
 /* eight section  */
 .eight-section {
     margin-top: 80px;
+    padding-right: 50px;
 
 }
 
