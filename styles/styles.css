@@ -12,8 +12,8 @@ main {
 header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner-image.png");
     border-radius: 16px;
-    background-size: cover;
-    width: 900px;
+    background-size: contain;
+    /* width: 900px; */
     /* height: 500px; */
     background-repeat: no-repeat;
     /* padding-bottom: 150px; */
@@ -307,13 +307,9 @@ line-height: normal; */
 
 /* seventh section  */
 .seventh-section {
-    background-image: url("../images/Group-75.png");
-    background-position: bottom;
+   background-image: ;
 }
 
-.image-one {
-    text-align: right;
-}
 
 /* eight section  */
 .eight-section {
@@ -462,6 +458,7 @@ footer {
 
 .text-part-one {
     padding-top: 100px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
 }
