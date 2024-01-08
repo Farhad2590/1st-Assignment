@@ -459,3 +459,8 @@ padding-right: 50px;
     padding: 50px 50px 50px 50px;
     color: white;
 }
+.horizontal{
+    width: 720px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+}
