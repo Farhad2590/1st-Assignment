@@ -47,7 +47,7 @@ header {
 
 /* second section  */
 .second-section {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     text-align: center;
 }
 
@@ -312,11 +312,6 @@ line-height: normal; */
    background-repeat: no-repeat;
    margin-top: 80px;
    margin-bottom: 80px;
-   /* background-size: contain; */
-   /* height: 100px 100px; */
-   /* margin-left: 50px;
-    margin-right: 50px; */
-   /* background-size: 100px 100px , 850px 100px; */
 
 }
 .image-container{
@@ -392,7 +387,8 @@ line-height: normal; */
 }
 
 .hover-image:hover {
-    transform: scale(1.5);
+    transform: rotate(20deg); /* Change degrees as desired */
+    transition: transform 0.3s ease-in-out;
 }
 
 .image-containe-two img {
@@ -454,11 +450,13 @@ line-height: normal; */
 #input1 {
     border-radius: 50px 0 0px 50px;
     padding: 20px 120px 20px 30px;
+    border: none;
+    outline: none;
 }
 
 #input2 {
     border-radius: 0px 50px 50px 0px;
-    padding: 20px 50px 20px 50px;
+    padding: 18px 50px 18px 50px;
     background: #F00;
     color: #FFF;
     text-align: center;
@@ -468,6 +466,8 @@ line-height: normal; */
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    border: none;
+    outline: none;
 
 }
 
