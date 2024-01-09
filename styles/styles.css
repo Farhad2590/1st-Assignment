@@ -19,11 +19,11 @@ header {
     /* padding-bottom: 150px; */
 }
 
-.banner-text {
+.banner-section {
     padding: 150px 100px 150px 100px;
 }
 
-.banner-text h1 {
+.banner-section h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -34,7 +34,7 @@ header {
     /* 131.944% */
 }
 
-.banner-text p {
+.banner-section p {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -46,12 +46,12 @@ header {
 }
 
 /* second section  */
-.second-section {
+.new-year-section {
     /* margin-top: 80px; */
     text-align: center;
 }
 
-.second-section h1 {
+.new-year-section h1 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -62,7 +62,7 @@ header {
     padding-bottom: 35px;
 }
 
-.second-section p {
+.new-year-section p {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -73,7 +73,7 @@ header {
     padding-bottom: 12px;
 }
 
-.second-section h4 {
+.new-year-section h4 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -85,13 +85,13 @@ header {
 
 }
 
-.second-section img {
+.new-year-section img {
     width: 600px;
     height: 400px;
 }
 
 /* third section  */
-.third-section {
+.section-2024 {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-size: cover;
     display: flex;
@@ -99,7 +99,7 @@ header {
 
 }
 
-.third-text-part h1 {
+.text-part-2024 h1 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 50px;
@@ -112,7 +112,7 @@ header {
 
 }
 
-.third-text-part p {
+.text-part-2024 p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 12px;
@@ -125,7 +125,7 @@ header {
     /* 166.667% */
 }
 
-.third-text-part h6 {
+.text-part-2024 h6 {
     color: #FFF;
     font-family: Inter;
     font-size: 12px;
@@ -136,7 +136,7 @@ line-height: normal; */
     text-transform: uppercase;
 }
 
-.third-image-part {
+.image-part-2024 {
     padding-right: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -146,7 +146,7 @@ line-height: normal; */
 }
 
 /* fourth section  */
-.fourth-section {
+.place-date-section {
     margin-top: 80px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     ;
@@ -155,7 +155,7 @@ line-height: normal; */
     background-position: cover;
 }
 
-.fourth-section h1 {
+.place-date-section h1 {
     color: #070211;
     font-family: Inter;
     font-size: 30px;
@@ -167,7 +167,7 @@ line-height: normal; */
 
 }
 
-.fourth-section button {
+.place-date-section button {
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -185,19 +185,19 @@ line-height: normal; */
     text-transform: uppercase;
 }
 
-.fourth-span-color {
+.place-span-color {
     color: #F00;
 }
 
 /* fifth section  */
-.fifth-section {
+.bestoffer-section {
     margin-top: 80px;
     display: flex;
     /* width: 33%; */
     gap: 30px;
 }
 
-.fifth-container-one h6 {
+.bestoffer-container-one h6 {
     color: #F00;
     /* text-align: center; */
     font-family: Inter;
@@ -207,7 +207,7 @@ line-height: normal; */
     /* line-height: normal; */
 }
 
-.fifth-container-one h1 {
+.bestoffer-container-one h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
@@ -217,7 +217,7 @@ line-height: normal; */
     text-transform: capitalize;
 }
 
-.fifth-container-one p {
+.bestoffer-container-one p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 14px;
@@ -227,7 +227,7 @@ line-height: normal; */
     /* 160% */
 }
 
-.fifth-container-two img {
+.bestoffer-container-two img {
     /* margin-right: 100px; */
     width: 300px;
     height: 300px;
@@ -237,7 +237,7 @@ line-height: normal; */
     border: 5px solid red;
 }
 
-.fifth-container-three h2 {
+.bestoffer-container-three h2 {
     color: #F00;
     font-family: Inter;
     font-size: 40px;
@@ -246,7 +246,7 @@ line-height: normal; */
     line-height: normal;
 }
 
-.fifth-container-three p {
+.bestoffer-container-three p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 14px;
@@ -256,18 +256,18 @@ line-height: normal; */
     /* padding-right: 60px; */
 }
 
-.fifth-container-three img {
+.bestoffer-container-three img {
     width: 80px;
     height: 80px;
 }
 
 /* sixth section  */
-.sixt-section {
+.functional-section {
     margin-top: 80px;
     text-align: center;
 }
 
-.sixt-section h6 {
+.functional-section h6 {
     color: #070211;
     font-family: Inter;
     font-size: 18px;
@@ -277,7 +277,7 @@ line-height: normal; */
     padding-bottom: 10px;
 }
 
-.sixt-section h1 {
+.functional-section h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 60px;
@@ -287,11 +287,11 @@ line-height: normal; */
     padding-bottom: 20px;
 }
 
-.sixt-section-span {
+.functional-section-span {
     color: #F00;
 }
 
-.sixt-section p {
+.functional-section p {
     text-align: center;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -306,7 +306,7 @@ line-height: normal; */
 }
 
 /* seventh section  */
-.seventh-section {
+.gift-50percente-section {
    background-image: url("../images/Rectangle-1.png"), url("../images/Rectangle-2.png");
    background-position:  top right , bottom;
    background-repeat: no-repeat;
@@ -329,13 +329,13 @@ line-height: normal; */
 }
 
 /* eight section  */
-.eight-section {
+.awsome-portfolio-section {
     margin-top: 80px;
     padding-right: 50px;
 
 }
 
-.eight-text-container h6 {
+.awsome-text-container h6 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -345,7 +345,7 @@ line-height: normal; */
     padding-bottom: 10px;
 }
 
-.eight-text-container h1 {
+.awsome-text-container h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 32px;
@@ -356,7 +356,7 @@ line-height: normal; */
     padding-bottom: 18px;
 }
 
-.eight-text-container p {
+.awsome-text-container p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     width: 650px;
